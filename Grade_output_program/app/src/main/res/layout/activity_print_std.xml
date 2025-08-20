@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:background="#C6C6C6">
+
+            <TextView
+                android:id="@+id/tv_ID"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="학번"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/tv_Mid"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="중간    고사"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Final"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="기말    고사"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_Report"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="리포트"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Att"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="출석"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Sum"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="총점"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Avg"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="평균"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Credit"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="학점"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!-- 학생 데이터 추가를 위한 TableRow 예시 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tv_Output"
+                android:layout_width="0dp"
+                android:layout_height="675dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:text="여기가 출력 위치 입니다" />
+
+        </TableRow>
+
+
+        <!-- 추가적인 학생 데이터는 이곳에 계속 추가 -->
+
+    </TableLayout>
+</LinearLayout>
